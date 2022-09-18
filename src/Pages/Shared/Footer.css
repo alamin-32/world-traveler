@@ -1,0 +1,29 @@
+.f-bg {
+    background-color: #313041;
+}
+
+.f-head {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.f-font {
+    color: #9F9EAC;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button {
+    background-color: #E8604C;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #E8604C;
+    font-size: 16px;
+    font-weight: 700;
+}
