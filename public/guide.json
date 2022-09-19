@@ -1,0 +1,59 @@
+[
+    {
+        
+        "name": "Annie Hewyart",
+        "img": "../src/assets/guide/team-img-1.jpg",
+        "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
+        
+    },
+    {
+        
+        "name": "Danniel Bess",
+        "img": "../src/assets/guide/team-img-2.jpg",
+        "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
+        
+    },
+    {
+       
+        "name": "Caelie Jasper",
+        "img": "../src/assets/guide/team-img-3.jpg",
+        "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
+       
+    },
+    {
+       
+        "name": "Carley Conrad",
+        "img": "../src/assets/guide/team-img-4.jpg",
+        "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
+       
+    },
+    {
+        
+        "name": "Marty Holmes",
+        "img":"../src/assets/guide/team-img-5.jpg",
+        "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
+        
+    },
+    {
+        
+        "name": "Suzy Meriel",
+        "img": "../src/assets/guide/team-img-6.jpg",
+        "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
+       
+    },
+    {
+        
+        "name": "Terrell Lorayne",
+        "img": "../src/assets/guide/team-img-7.jpg",
+        "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
+    },
+       
+    {
+        
+        "name": "Pamela Briony",
+        "img": "../src/assets/guide/team-img-8.jpg",
+        "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
+       
+    }
+    
+]
