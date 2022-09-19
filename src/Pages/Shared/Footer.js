@@ -11,9 +11,9 @@ const Footer = () => {
                     <div>
                         <a><img className='ml-14' src={logo1} alt="" /></a>
                         <p className='f-font pt-7'>
-                            ACME Industries Ltd.
+                            World Traveler Ltd.
                             <br />
-                            Providing reliable tech since 1992</p>
+                            Providing reliable tour plan since 2020</p>
                     </div>
                     <div>
                         <div className='flex py-2'>

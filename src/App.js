@@ -5,6 +5,7 @@ import Contact from './Pages/Contact/Contact';
 import Destinations from './Pages/Destinations/Destinations';
 import Home from './Pages/Home/Home';
 import News from './Pages/News/News';
+import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer';
 import Navbar from './Pages/Shared/Navbar';
 import Tours from './Pages/Tours/Tours';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/news' element={<News></News>}></Route>
         <Route path='/contactUs' element={<Contact></Contact>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
       <Footer></Footer>
