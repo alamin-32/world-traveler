@@ -1,59 +1,50 @@
 [
     {
-        
+        "_id": 1,
         "name": "Annie Hewyart",
-        "img": "../src/assets/guide/team-img-1.jpg",
+        "img": "https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/team-img-1.jpg",
         "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
-        
     },
     {
-        
+        "_id": 2,
         "name": "Danniel Bess",
-        "img": "../src/assets/guide/team-img-2.jpg",
+        "img": "https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/team-img-2.jpg",
         "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
-        
     },
     {
-       
+        "_id": 3,
         "name": "Caelie Jasper",
-        "img": "../src/assets/guide/team-img-3.jpg",
+        "img": "https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/team-img-3.jpg",
         "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
-       
     },
     {
-       
+        "_id": 4,
         "name": "Carley Conrad",
-        "img": "../src/assets/guide/team-img-4.jpg",
+        "img": "https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/team-img-4.jpg",
         "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
-       
     },
     {
-        
+        "_id": 5,
         "name": "Marty Holmes",
-        "img":"../src/assets/guide/team-img-5.jpg",
+        "img": "https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/team-img-5.jpg",
         "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
-        
     },
     {
-        
+        "_id": 6,
         "name": "Suzy Meriel",
-        "img": "../src/assets/guide/team-img-6.jpg",
+        "img": "https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/team-img-6.jpg",
         "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
-       
     },
     {
-        
+        "_id": 7,
         "name": "Terrell Lorayne",
-        "img": "../src/assets/guide/team-img-7.jpg",
+        "img": "https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/team-img-7.jpg",
         "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
     },
-       
     {
-        
+        "_id": 8,
         "name": "Pamela Briony",
-        "img": "../src/assets/guide/team-img-8.jpg",
+        "img": "https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/team-img-8.jpg",
         "description": "Donec vel quam vitae nisl posuere efficitur. Suspendisse eget lectus est. Pellentesque vitae maximus tur."
-       
     }
-    
 ]

@@ -26,7 +26,14 @@ const Navbar = () => {
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal text-lg font-bold p-0">
                     <li><Link className='nav-text' to='/'>Home</Link></li>
-                    <li><Link className='nav-text' to='/destinations'>Destinations</Link></li>
+
+                    <li><Link className='dropdown dropdown-hover nav-text' to='/destinations'>Destinations</Link>
+                        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-white rounded-box w-52">
+                            <li ><Link className='nav-text' to='/destinationList'>Destination List</Link></li>
+                            <li ><Link className='nav-text' to='/ourTeams'>Our Team</Link></li>
+                        </ul>
+                    </li>
+
                     <li><Link className='nav-text' to='tours'>Tours</Link></li>
                     <li><Link className='nav-text' to='/blogs'>Blogs</Link></li>
                     <li><Link className='nav-text' to='/news'>News</Link></li>
