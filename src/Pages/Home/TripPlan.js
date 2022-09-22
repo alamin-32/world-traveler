@@ -23,7 +23,7 @@ const TripPlan = () => {
                     <Icon icon="el:ok-sign" color="#e8604c" width="20" height="30" />
                     <p className='ml-5 text-lg font-bold'>Largest global industrial business community</p>
                 </div>
-                <button class="btn w-52 con-btn mt-10">Send A Message</button>
+                <button class="btn w-52 con-btn mt-10">Book With Us Now</button>
             </div>
 
         </div>
