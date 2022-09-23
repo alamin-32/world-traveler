@@ -5,7 +5,9 @@ import { Icon } from '@iconify/react';
 const TripPlan = () => {
     return (
         <div className='grid grid-cols-2 gap-6 ml-10 my-10'>
-            <div><img src={img1} alt="" /></div>
+            <div><img src={img1} alt="" />
+            </div>
+
             <div className='mt-14 py-6'>
                 <p className='font-bold'>Get To Know Us</p>
                 <h1 className='text-5xl font-bold mt-3'>Plan Your Trip With</h1>

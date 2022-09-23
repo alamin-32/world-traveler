@@ -5,6 +5,8 @@ import Contact from './Pages/Contact/Contact';
 import Destinations from './Pages/Destinations/Destinations';
 import DestinationsList from './Pages/Destinations/DestinationsList';
 import Home from './Pages/Home/Home';
+import LogIn from './Pages/Login/LogIn';
+import SignUp from './Pages/Login/SignUp';
 import News from './Pages/News/News';
 import NotFound from './Pages/NotFound/NotFound';
 import OurTeam from './Pages/OurTeam/OurTeam';
@@ -26,6 +28,8 @@ function App() {
           <Route path='/tours' element={<Tours></Tours>}></Route>
           <Route path='/blogs' element={<Blogs></Blogs>}></Route>
           <Route path='/news' element={<News></News>}></Route>
+          <Route path='/logIn' element={<LogIn></LogIn>}></Route>
+          <Route path='/signUp' element={<SignUp></SignUp>}></Route>
           <Route path='/contactUs' element={<Contact></Contact>}></Route>
           <Route path='*' element={<NotFound></NotFound>}></Route>
         </Routes>

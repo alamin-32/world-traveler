@@ -2,7 +2,7 @@ import React from 'react';
 import './Banner.css'
 const Banner = () => {
     return (
-        <div className='mb-10'>
+        <div className='my-20'>
             <div class="carousel w-full">
                 <div style={{
                     background: `url(https://tevily-html.vercel.app/assets/images/backgrounds/main-slider-1-1.jpg)`

@@ -41,9 +41,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn-ghost normal-case text-4xl mr-4 bg-orange-500 rounded-full p-2"><Icon icon="heroicons:magnifying-glass" /></a>
+                <Link class="btn-ghost normal-case text-4xl mr-4 bg-orange-500 rounded-full p-2"><Icon icon="heroicons:magnifying-glass" /></Link>
 
-                <a class="btn-ghost normal-case text-4xl mr-4 bg-orange-500 rounded-full p-2"><Icon icon="healthicons:ui-user-profile-outline" /></a>
+                <Link to='/logIn' class="btn-ghost normal-case text-4xl mr-4 bg-orange-500 rounded-full p-2"><Icon icon="healthicons:ui-user-profile-outline" /></Link>
             </div>
         </div>
     );
