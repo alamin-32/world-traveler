@@ -1,15 +1,21 @@
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
 import './Review.css'
 
 const Review = ({ rView }) => {
     const { img, name, review, email } = rView
+    const [user] = useAuthState(auth);
+    console.log(user);
     return (
         <div className='my-10 mx-auto'>
             <div className="avatar ">
                 <div className="w-42 ml-20 rounded-full mb-5">
                     <img src={img} />
+                    {/* <img src={user.metadata.photoURL} /> */}
                 </div>
             </div>
+
             <div className="card w-96 h-96 mt-1 shadow-xl bg-white ">
                 <div className="card-body items-center text-center py-5">
                     <div class="rating mt-3">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import survey from '../../assets/images/survey.jpg'
 
 
 
@@ -35,46 +36,49 @@ const MyReview = () => {
 
         <div className='mr-10 my-10'>
             <div className="mx-10 mt-5">
-                <h2 className="text-3xl font-bold text-cyan-400 text-center ml-14">Your Review</h2>
-                <div className="">
-                    <form onSubmit={handleReview}>
-                        <div className="form-control font-bold w-full max-w-xs">
+                <h2 className="text-5xl font-bold text-orange-500 text-center ml-14">Your Review</h2>
+                <div className="grid grid-cols-2">
+                    <div>
+                        <img className='w-full h-full' src={survey} alt="" />
+                    </div>
+                    <form className='p-10' onSubmit={handleReview}>
+                        <div className="form-control font-bold w-full ">
                             <label className="label">
-                                <span className="label-text">Name</span>
+                                <span className="label-text"></span>
                             </label>
                             <input
                                 type="text"
                                 placeholder="Name"
-                                className="input input-bordered font-semibold w-full max-w-xs"
+                                className="rounded px-4 py-4 input-bg font-bold font-semibold w-full "
                                 value={user?.displayName}
                                 disabled
                             />
                         </div>
-                        <div className="form-control font-bold w-full max-w-xs">
+                        <div className="form-control font-bold w-full ">
                             <label className="label">
-                                <span className="label-text">Email</span>
+                                <span className="label-text"></span>
                             </label>
                             <input
                                 type="email"
                                 placeholder="Email"
-                                className="input input-bordered font-semibold w-full max-w-xs"
+                                className="rounded px-4 py-4 input-bg font-bold font-semibold w-full "
                                 value={user?.email}
                                 disabled
                             />
                         </div>
 
-                        <div className="form-control w-full font-bold max-w-xs">
+                        <div className="form-control w-full font-bold ">
                             <label className="label">
-                                <span className="label-text">Message</span>
+                                <span className="label-text"></span>
                             </label>
                             <textarea
-                                className="textarea bg-slate-200"
+                                className="textarea rounded input-bg h-40 first-letter:"
                                 placeholder="Type here"
                                 name="review"
                             ></textarea>
                         </div>
 
-                        <input className='btn w-full btn-outline max-w-xs text-white font-bold bg-cyan-400 mt-5' value='Submit' type="submit" />
+                        <input className='btn w-40 con-btn  mt-5' value='Submit' type="submit" />
                     </form>
                 </div>
             </div>
