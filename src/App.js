@@ -11,6 +11,7 @@ import News from './Pages/News/News';
 import NotFound from './Pages/NotFound/NotFound';
 import OurTeam from './Pages/OurTeam/OurTeam';
 import OurTeams from './Pages/OurTeam/OurTeams';
+import Reviews from './Pages/Review/Reviews';
 import Footer from './Pages/Shared/Footer';
 import Navbar from './Pages/Shared/Navbar';
 import Tours from './Pages/Tours/Tours';
@@ -28,6 +29,7 @@ function App() {
           <Route path='/tours' element={<Tours></Tours>}></Route>
           <Route path='/blogs' element={<Blogs></Blogs>}></Route>
           <Route path='/news' element={<News></News>}></Route>
+          <Route path='/reviews' element={<Reviews></Reviews>}></Route>
           <Route path='/logIn' element={<LogIn></LogIn>}></Route>
           <Route path='/signUp' element={<SignUp></SignUp>}></Route>
           <Route path='/contactUs' element={<Contact></Contact>}></Route>
