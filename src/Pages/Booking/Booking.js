@@ -39,7 +39,7 @@ const Booking = () => {
             })
     }
     return (
-        <div className='mr-10 my-10'>
+        <div className='mr-10 mt-10'>
             <div className="mx-10">
                 <h2 className="text-5xl font-bold text-orange-500 text-center ml-6 mb-5">Booking</h2>
                 <div>
@@ -110,7 +110,7 @@ const Booking = () => {
                                 <span className="label-text"></span>
                             </label>
                             <textarea
-                                className="textarea rounded input-bg h-40 first-letter:"
+                                className="textarea rounded input-bg h-20 first-letter:"
                                 placeholder="Pick Up Address"
                                 name="pickUp"
                                 required

@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import TourBanner from './TourBanner';
 import './TourDetails.css'
 import Booking from '../Booking/Booking';
+import TourPlan from './TourPlan';
 
 
 const TourDetails = () => {
@@ -69,8 +70,8 @@ const TourDetails = () => {
             </div>
             <div className='grid grid-flow-row-dense grid-cols-3'>
                 <div className='grid col-span-2'>
-                    <div className='pb-16 pt-8 px-16'>
-                        <h1 className='text-5xl mb-10 font-semibold'>Overview</h1>
+                    <div className='pb-16 pt-16 px-16'>
+                        <h1 className='text-5xl mb-16 font-semibold'>Overview</h1>
                         <p className='font-semibold text-lg text-slate-400'>{tourDetails.overview}</p>
                         <h1 className='text-2xl font-bold py-5'>Included/Exclude</h1>
 
@@ -116,11 +117,12 @@ const TourDetails = () => {
 
                     </div>
                     <div>
-                       
+
                     </div>
                 </div>
                 <Booking></Booking>
             </div>
+            <TourPlan></TourPlan>
         </div>
     );
 };
