@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from '../../assets/images/img1.png'
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
 
 const TripPlan = () => {
     return (
@@ -25,7 +26,7 @@ const TripPlan = () => {
                     <Icon icon="el:ok-sign" color="#e8604c" width="20" height="30" />
                     <p className='ml-5 text-lg font-bold'>Largest global industrial business community</p>
                 </div>
-                <button class="btn w-52 con-btn mt-10">Book With Us Now</button>
+                <button class="btn w-52 con-btn mt-10"><Link to='/tours'>Book With Us Now</Link></button>
             </div>
 
         </div>
