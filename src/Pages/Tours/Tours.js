@@ -7,7 +7,7 @@ import Tour from './Tour';
 const Tours = () => {
     const [tours, setTours] = useState([])
     useEffect(() => {
-        fetch('tour.json')
+        fetch('http://localhost:5000/tourList')
             .then(res => res.json())
             .then(data => setTours(data))
     }, [])

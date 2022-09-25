@@ -15,7 +15,7 @@ const Navbar = () => {
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link className='nav-text' to='/'>Home</Link></li>
                         <li><Link className='nav-text' to='/destinations'>Destinations</Link></li>
-                        <li><Link className='nav-text' to='tours'>Tours</Link></li>
+                        <li><Link className='nav-text' to='/tours'>Tours</Link></li>
                         <li><Link className='nav-text' to='/blogs'>Blogs</Link></li>
                         <li><Link className='nav-text' to='/news'>News</Link></li>
                         <li><Link className='nav-text' to='/contactUs'>Contact Us</Link></li>

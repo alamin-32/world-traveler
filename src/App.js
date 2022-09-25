@@ -14,6 +14,7 @@ import OurTeams from './Pages/OurTeam/OurTeams';
 import Reviews from './Pages/Review/Reviews';
 import Footer from './Pages/Shared/Footer';
 import Navbar from './Pages/Shared/Navbar';
+import TourDetails from './Pages/Tours/TourDetails';
 import Tours from './Pages/Tours/Tours';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/destinationList' element={<DestinationsList></DestinationsList>}></Route>
           <Route path='/ourTeams' element={<OurTeams></OurTeams>}></Route>
           <Route path='/tours' element={<Tours></Tours>}></Route>
+          <Route path='/tourDetails/:id' element={<TourDetails></TourDetails>}></Route>
           <Route path='/blogs' element={<Blogs></Blogs>}></Route>
           <Route path='/news' element={<News></News>}></Route>
           <Route path='/reviews' element={<Reviews></Reviews>}></Route>
