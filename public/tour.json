@@ -1,0 +1,57 @@
+[
+    {
+        "_id": 1,
+        "img": "https://tevily-html.vercel.app/assets/images/resources/tours-list-img-1.jpg",
+        "rating": "8.0 Super",
+        "name": "Moscow Red City Land",
+        "price": "$870",
+        "description": "Lorem ipsum available isn but the majority have suffered alteratin in some or form injected semper fames.",
+        "days": 3,
+        "people": 12,
+        "area": "LOS ANGELES"
+    },
+    {
+        "_id": 2,
+        "img": "https://tevily-html.vercel.app/assets/images/resources/tours-list-img-2.jpg",
+        "rating": "8.0 Super",
+        "name": "Discover Depth of Beach",
+        "price": "$870",
+        "description": "Lorem ipsum available isn but the majority have suffered alteratin in some or form injected semper fames.",
+        "days": 3,
+        "people": 12,
+        "area": "LOS ANGELES"
+    },
+    {
+        "_id": 3,
+        "img": "https://tevily-html.vercel.app/assets/images/resources/tours-list-img-3.jpg",
+        "rating": "8.0 Super",
+        "name": "Discover Depth of Beach",
+        "price": "$870",
+        "description": "Lorem ipsum available isn but the majority have suffered alteratin in some or form injected semper fames.",
+        "days": 3,
+        "people": 12,
+        "area": "LOS ANGELES"
+    },
+    {
+        "_id": 4,
+        "img": "https://tevily-html.vercel.app/assets/images/resources/tours-list-img-4.jpg",
+        "rating": "8.0 Super",
+        "name": "Moscow Red City Land",
+        "price": "$870",
+        "description": "Lorem ipsum available isn but the majority have suffered alteratin in some or form injected semper fames.",
+        "days": 3,
+        "people": 12,
+        "area": "LOS ANGELES"
+    },
+    {
+        "_id": 5,
+        "img": "https://tevily-html.vercel.app/assets/images/resources/tours-list-img-5.jpg",
+        "rating": "8.0 Super",
+        "name": "National Park 2 Days Tour",
+        "price": "$870",
+        "description": "Lorem ipsum available isn but the majority have suffered alteratin in some or form injected semper fames.",
+        "days": 3,
+        "people": 12,
+        "area": "LOS ANGELES"
+    }
+]
