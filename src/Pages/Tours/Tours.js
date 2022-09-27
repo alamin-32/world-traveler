@@ -18,11 +18,8 @@ const Tours = () => {
             }} className='h-64 '>
                 <p className='con-head pt-40 pl-24'>Tour Packages</p>
             </div>
-            <div className='grid grid-flow-row-dense grid-cols-3 grid-rows-1 mt-10'>
-                <div>
-                    <h1>hellow</h1>
-                </div>
-                <div className='grid col-span-2 gap-5 px-10'>
+            
+                <div className='grid col-span-2 gap-5 px-28 my-10'>
                     {
                         tours.map(tour =>
                             <Tour
@@ -31,7 +28,6 @@ const Tours = () => {
                             </Tour>)
                     }
                 </div>
-            </div>
         </div>
     );
 };

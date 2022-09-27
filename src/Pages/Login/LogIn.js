@@ -6,11 +6,11 @@ import auth from '../../firebase.init';
 import Loading from '../Shared/Loading';
 
 const LogIn = () => {
-    const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, gLoading, gError] = useSignInWithGoogle(auth);
     const { register, formState: { errors }, handleSubmit } = useForm();
     const [
         signInWithEmailAndPassword,
-        user,
+        eUser,
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
@@ -28,7 +28,7 @@ const LogIn = () => {
         signInError = <p className='text-red-600'><small>{error?.message || gError.message}</small></p>
     }
 
-    if (user) {
+    if (user || eUser) {
         navigate(from, { replace: true });
     }
     const onSubmit = data => {

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Destinations = () => {
+const DestinationBanner = () => {
     return (
         <div>
-            <h1>ok</h1>
+            
         </div>
     );
 };
 
-export default Destinations;
+export default DestinationBanner;

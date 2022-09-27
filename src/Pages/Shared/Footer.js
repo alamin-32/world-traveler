@@ -2,6 +2,7 @@ import React from 'react';
 import logo1 from '../../assets/images/logo1.png'
 import './Footer.css'
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -9,8 +10,8 @@ const Footer = () => {
             <footer class="footer px-10 py-20 f-bg text-base-content">
                 <div class="flex flex-col w-full">
                     <div>
-                        <a><img className='ml-14' src={logo1} alt="" /></a>
-                        <p className='f-font pt-7'>
+                        <Link to='/'><h1 className='text-4xl font-extrabold  text-orange-500'>World Traveler</h1></Link>
+                        <p className='f-font pt-4'>
                             World Traveler Ltd.
                             <br />
                             Providing reliable tour plan since 2020</p>

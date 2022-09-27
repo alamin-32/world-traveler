@@ -2,7 +2,7 @@ import React from 'react';
 
 const TourBanner = () => {
     return (
-        <div className='mt-20'>
+        <div>
             <div class="carousel w-full">
                 <div style={{
                     background: `url(https://tevily-html.vercel.app/assets/images/backgrounds/tour-details-bg-1.jpg)`
