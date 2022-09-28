@@ -34,8 +34,8 @@ const Contact = () => {
             <div className='grid grid-cols-3 gap-4 px-14 py-8 mb-5'>
                 <div className='border flex px-20'>
                     <p className='py-10 mr-4'><Icon icon="el:ok-sign" color="#e8604c" width="50" height="50" /></p>
-                    <p className='py-10 flex  font-bold text-gray-500'>88 Broklyn Street <br />
-                        Road New York. USA</p>
+                    <p className='py-10 flex  font-bold text-gray-500'>16 Indira Rd <br />
+                        Dhaka. Bangladesh</p>
                 </div>
                 <div className='border flex px-20'>
                     <p className='py-10 mr-4'><Icon icon="bxs:phone" color="#e8604c" width="50" height="50" /></p>
@@ -44,8 +44,8 @@ const Contact = () => {
                 </div>
                 <div className='border flex px-20'>
                     <p className='py-10 mr-4'><Icon icon="entypo:email" color="#e8604c" width="50" height="50" /></p>
-                    <p className='py-10 flex  font-bold text-gray-500'>needhelp@tevily.com<br />
-                        info@tevily.com</p>
+                    <p className='py-10 flex  font-bold text-gray-500'>needhelp@global.com<br />
+                        info@global.com</p>
                 </div>
             </div>
 

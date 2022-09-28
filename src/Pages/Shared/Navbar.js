@@ -36,7 +36,7 @@ const Navbar = () => {
                         <li><Link className='nav-text' to='/contactUs'>Contact Us</Link></li>
                     </ul>
                 </div>
-                <Link><h1 className='text-4xl font-extrabold  text-orange-500'>World Traveler</h1></Link>
+                <Link><h1 className='text-4xl font-extrabold  text-orange-500'>Global Traveler</h1></Link>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal text-lg font-bold p-0">

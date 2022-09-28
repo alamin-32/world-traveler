@@ -6,7 +6,7 @@ const DestinationDetails = () => {
     const { id } = useParams()
     const [destinationDetails, setdestinationDetails] = useState({})
     useEffect(() => {
-        const url = `http://localhost:5000/destinationList/${id}`;
+        const url = `https://safe-citadel-47362.herokuapp.com/destinationList/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setdestinationDetails(data))
@@ -79,12 +79,12 @@ const DestinationDetails = () => {
                             </div>
                             <hr />
                             <div className='flex  my-4'>
-                                <p className=' text-xl   font-bold'>District</p>
+                                <p className=' text-xl mr-20  font-bold'>District</p>
                                 <p className=' text-xl  text-orange-400 ml-96 font-bold'>{destinationDetails.district}</p>
                             </div>
                             <hr />
                             <div className='flex  my-4'>
-                                <p className=' text-xl   font-bold'>Divison</p>
+                                <p className=' text-xl mr-20  font-bold'>Divison</p>
                                 <p className=' text-xl  text-orange-400 ml-96 font-bold'>{destinationDetails.division}</p>
                             </div>
                             <hr />

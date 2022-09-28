@@ -4,7 +4,7 @@ import Destination from './Destination';
 const DestinationsList = () => {
     const [destinationsList, setdestinationsList] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/destinationList')
+        fetch('https://safe-citadel-47362.herokuapp.com/destinationList')
             .then(res => res.json())
             .then(data => setdestinationsList(data))
     }, [])

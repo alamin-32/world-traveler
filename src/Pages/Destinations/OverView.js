@@ -5,7 +5,7 @@ const OverView = () => {
     return (
         <div className='pb-16 pt-16 px-16'>
         <h1 className='text-5xl mb-16 font-semibold'>Overview</h1>
-        <p className='font-semibold text-lg text-slate-400'>{tourDetails.overview}</p>
+        {/* <p className='font-semibold text-lg text-slate-400'>{tourDetails.overview}</p> */}
         <h1 className='text-2xl font-bold py-5'>Included/Exclude</h1>
 
         <div className='flex'>

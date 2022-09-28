@@ -24,7 +24,7 @@ const Booking = () => {
             pickUp: pickUp
         }
 
-        fetch('http://localhost:5000/booking', {
+        fetch('https://safe-citadel-47362.herokuapp.com/booking', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
