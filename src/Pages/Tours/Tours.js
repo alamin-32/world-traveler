@@ -7,7 +7,7 @@ import Tour from './Tour';
 const Tours = () => {
     const [tours, setTours] = useState([])
     useEffect(() => {
-        fetch('https://safe-citadel-47362.herokuapp.com/tourList')
+        fetch('https://world-traveler-server-hdqlke1sn-alamin-32.vercel.app/tourList')
             .then(res => res.json())
             .then(data => setTours(data))
     }, [])
@@ -18,16 +18,16 @@ const Tours = () => {
             }} className='h-64 '>
                 <p className='con-head pt-40 pl-24'>Tour Packages</p>
             </div>
-            
-                <div className='grid col-span-2 gap-5 px-28 my-10'>
-                    {
-                        tours.map(tour =>
-                            <Tour
-                                key={tour._id}
-                                tour={tour}>
-                            </Tour>)
-                    }
-                </div>
+
+            <div className='grid col-span-2 gap-5 px-28 my-10'>
+                {
+                    tours.map(tour =>
+                        <Tour
+                            key={tour._id}
+                            tour={tour}>
+                        </Tour>)
+                }
+            </div>
         </div>
     );
 };

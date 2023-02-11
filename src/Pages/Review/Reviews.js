@@ -5,7 +5,7 @@ import Review from './Review';
 const Reviews = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('https://safe-citadel-47362.herokuapp.com/reviews')
+        fetch('https://world-traveler-server-hdqlke1sn-alamin-32.vercel.app/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])

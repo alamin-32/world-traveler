@@ -6,7 +6,7 @@ const DestinationDetails = () => {
     const { id } = useParams()
     const [destinationDetails, setdestinationDetails] = useState({})
     useEffect(() => {
-        const url = `https://safe-citadel-47362.herokuapp.com/destinationList/${id}`;
+        const url = `https://world-traveler-server-hdqlke1sn-alamin-32.vercel.app/destinationList/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setdestinationDetails(data))

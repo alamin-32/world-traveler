@@ -4,7 +4,7 @@ import Destination from './Destination';
 const DestinationsList = () => {
     const [destinationsList, setdestinationsList] = useState([])
     useEffect(() => {
-        fetch('https://safe-citadel-47362.herokuapp.com/destinationList')
+        fetch('https://world-traveler-server-hdqlke1sn-alamin-32.vercel.app/destinationList')
             .then(res => res.json())
             .then(data => setdestinationsList(data))
     }, [])
